@@ -1,0 +1,49 @@
+[
+    {
+      "response_type": "chitchat",
+      "intent": "how_are_you",
+      "user_input": [
+        "how",
+        "are",
+        "you",
+        "doing"
+      ],
+      "bot_response": "I'm doing great, thanks for asking!",
+      "required_words": [
+        "how",
+        "you"
+      ],
+      "category": "chitchat",
+      "context": "casual",
+      "enabled": true,
+      "variations": [
+        "All good here!",
+        "I'm functioning perfectly!",
+        "Great! And you?"
+      ]
+    },
+    {
+      "response_type": "chitchat",
+      "intent": "bot_age",
+      "user_input": [
+        "how",
+        "old",
+        "are",
+        "you",
+        "age"
+      ],
+      "bot_response": "Age is just a number\u2026 and I\u2019m mostly numbers anyway!",
+      "required_words": [
+        "old",
+        "you"
+      ],
+      "category": "chitchat",
+      "context": "fun",
+      "enabled": true,
+      "variations": [
+        "I'm timeless\u2014like cloud storage!",
+        "I don\u2019t age, I just evolve.",
+        "Bots don\u2019t grow old, we get upgrades!"
+      ]
+    }
+  ]
